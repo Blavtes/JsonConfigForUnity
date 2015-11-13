@@ -1,12 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+using System.Text;
+using System.Runtime.InteropServices;
+using System;
 public class test : MonoBehaviour {
 
 	public GameObject abcBt;
 	// Use this for initialization
 	public GameObject packFeild;
 	public GameObject bluetooth;
+
+	public GameObject plane;
+	
+	public GUIStyle open;
+
+
 	void  Awake()
 	{
 		UIEventListener.Get(abcBt).onClick = TTTTClick;
