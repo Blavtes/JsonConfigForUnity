@@ -1,0 +1,16 @@
+bgmusic  背景音乐
+collidemusic 碰撞，发射的音效			          :在碰撞函数内执行(穿刺泡泡不播放)
+
+
+//每个特效播放的时候  播放音效
+burstmusic 消除音效：每个泡泡爆炸播放一次                 :
+crushmusic 冲击波音效				          :
+firemusic  爆炸
+rainbowmusic  彩虹
+snowmusic 冰冻
+thandermusic 闪电特效
+warningmusic  警戒线提示
+
+
+losemusic   失败				          :在失败页面内添加
+winmusic  胜利音乐					  :在胜利页面添加

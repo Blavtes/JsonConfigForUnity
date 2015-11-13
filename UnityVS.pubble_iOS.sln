@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.pubble_iOS.CSharp", "UnityVS.pubble_iOS.CSharp.csproj", "{B4B8C8DC-3D6C-9154-0623-1B9C7A9B9448}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.pubble_iOS.CSharp.Editor", "UnityVS.pubble_iOS.CSharp.Editor.csproj", "{556555CE-D2BF-3A01-33C5-58F379F55D46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.pubble_iOS.CSharp.Plugins", "UnityVS.pubble_iOS.CSharp.Plugins.csproj", "{F9AEE870-91DE-B10C-3888-02487E0F6BBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4B8C8DC-3D6C-9154-0623-1B9C7A9B9448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4B8C8DC-3D6C-9154-0623-1B9C7A9B9448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4B8C8DC-3D6C-9154-0623-1B9C7A9B9448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4B8C8DC-3D6C-9154-0623-1B9C7A9B9448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{556555CE-D2BF-3A01-33C5-58F379F55D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{556555CE-D2BF-3A01-33C5-58F379F55D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{556555CE-D2BF-3A01-33C5-58F379F55D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{556555CE-D2BF-3A01-33C5-58F379F55D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9AEE870-91DE-B10C-3888-02487E0F6BBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9AEE870-91DE-B10C-3888-02487E0F6BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9AEE870-91DE-B10C-3888-02487E0F6BBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9AEE870-91DE-B10C-3888-02487E0F6BBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F9AEE870-91DE-B10C-3888-02487E0F6BBC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Web v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_4_6_4;UNITY_4_6;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_4_6_4;UNITY_4_6;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>\Applications\Unity\Unity.app\Contents\UnityExtensions\Unity\GUISystem\4.6.4\UnityEngine.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Plugins\Pixelplacement\iTween\Sample\MoveSample.cs" />
+    <Compile Include="Assets\Plugins\Pixelplacement\iTween\Sample\RotateSample.cs" />
+    <Compile Include="Assets\Plugins\Pixelplacement\iTween\Sample\SampleInfo.cs" />
+    <Compile Include="Assets\Plugins\Pixelplacement\iTween\iTween.cs" />
+    <None Include="Assets\NGUI\ReadMe - 3.6.8.txt" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 1.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 2.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 3.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
+    <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
+    <None Include="Assets\Resources\document\barr0.txt" />
+    <None Include="Assets\Resources\document\barr1.txt" />
+    <None Include="Assets\Resources\document\barr10.txt" />
+    <None Include="Assets\Resources\document\barr11.txt" />
+    <None Include="Assets\Resources\document\barr12.txt" />
+    <None Include="Assets\Resources\document\barr13.txt" />
+    <None Include="Assets\Resources\document\barr14.txt" />
+    <None Include="Assets\Resources\document\barr15.txt" />
+    <None Include="Assets\Resources\document\barr16.txt" />
+    <None Include="Assets\Resources\document\barr17.txt" />
+    <None Include="Assets\Resources\document\barr18.txt" />
+    <None Include="Assets\Resources\document\barr19.txt" />
+    <None Include="Assets\Resources\document\barr2.txt" />
+    <None Include="Assets\Resources\document\barr20.txt" />
+    <None Include="Assets\Resources\document\barr21.txt" />
+    <None Include="Assets\Resources\document\barr22.txt" />
+    <None Include="Assets\Resources\document\barr23.txt" />
+    <None Include="Assets\Resources\document\barr24.txt" />
+    <None Include="Assets\Resources\document\barr25.txt" />
+    <None Include="Assets\Resources\document\barr26.txt" />
+    <None Include="Assets\Resources\document\barr27.txt" />
+    <None Include="Assets\Resources\document\barr28.txt" />
+    <None Include="Assets\Resources\document\barr29.txt" />
+    <None Include="Assets\Resources\document\barr3.txt" />
+    <None Include="Assets\Resources\document\barr30.txt" />
+    <None Include="Assets\Resources\document\barr31.txt" />
+    <None Include="Assets\Resources\document\barr32.txt" />
+    <None Include="Assets\Resources\document\barr33.txt" />
+    <None Include="Assets\Resources\document\barr34.txt" />
+    <None Include="Assets\Resources\document\barr35.txt" />
+    <None Include="Assets\Resources\document\barr36.txt" />
+    <None Include="Assets\Resources\document\barr37.txt" />
+    <None Include="Assets\Resources\document\barr38.txt" />
+    <None Include="Assets\Resources\document\barr39.txt" />
+    <None Include="Assets\Resources\document\barr4.txt" />
+    <None Include="Assets\Resources\document\barr40.txt" />
+    <None Include="Assets\Resources\document\barr41.txt" />
+    <None Include="Assets\Resources\document\barr42.txt" />
+    <None Include="Assets\Resources\document\barr43.txt" />
+    <None Include="Assets\Resources\document\barr44.txt" />
+    <None Include="Assets\Resources\document\barr45.txt" />
+    <None Include="Assets\Resources\document\barr46.txt" />
+    <None Include="Assets\Resources\document\barr47.txt" />
+    <None Include="Assets\Resources\document\barr48.txt" />
+    <None Include="Assets\Resources\document\barr49.txt" />
+    <None Include="Assets\Resources\document\barr5.txt" />
+    <None Include="Assets\Resources\document\barr50.txt" />
+    <None Include="Assets\Resources\document\barr51.txt" />
+    <None Include="Assets\Resources\document\barr52.txt" />
+    <None Include="Assets\Resources\document\barr53.txt" />
+    <None Include="Assets\Resources\document\barr54.txt" />
+    <None Include="Assets\Resources\document\barr55.txt" />
+    <None Include="Assets\Resources\document\barr56.txt" />
+    <None Include="Assets\Resources\document\barr57.txt" />
+    <None Include="Assets\Resources\document\barr58.txt" />
+    <None Include="Assets\Resources\document\barr59.txt" />
+    <None Include="Assets\Resources\document\barr6.txt" />
+    <None Include="Assets\Resources\document\barr7.txt" />
+    <None Include="Assets\Resources\document\barr8.txt" />
+    <None Include="Assets\Resources\document\barr9.txt" />
+    <None Include="Assets\Resources\document\barr901.txt" />
+    <None Include="Assets\Resources\document\des.txt" />
+    <None Include="Assets\Resources\document\level.txt" />
+    <None Include="Assets\Resources\document\random.txt" />
+    <None Include="Assets\Resources\music\说明文档.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2012\UnityVS.CSharp.targets" />
+</Project>
